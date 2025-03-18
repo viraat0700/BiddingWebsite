@@ -1,14 +1,15 @@
 import "./App.css";
-import Header from "../src/Components/Header";
-import MainContent from "./Components/MainContent";
-import Footer from "./Components/Footer";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import Landing from "./pages/Landing";
+import Profile from "./pages/Profile";
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
-      <Header />
-      <MainContent />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Router>
   );
 }
 
