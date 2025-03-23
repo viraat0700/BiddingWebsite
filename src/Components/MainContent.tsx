@@ -22,7 +22,9 @@ const departments = [
 
 const MainContent: React.FC = () => {
   return (
-    <main className="flex-grow p-4 sm:p-8">
+    <main className="flex-grow p-4 sm:p-8 bg-white dark:bg-gray-900 text-gray-900 dark:text-white"> 
+      {/* ✅ Background and Text Color Updated */}
+
       {/* Title */}
       <h1 className="text-center text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
         INDOMAIN TECHNOLOGY PVT. LTD.
@@ -38,8 +40,11 @@ const MainContent: React.FC = () => {
         {departments.map((dept, index) => (
           <div
             key={index}
-            className="flex flex-col items-center p-2 sm:p-4 border rounded-lg shadow hover:shadow-lg cursor-pointer transition duration-300"
+            className="flex flex-col items-center p-2 sm:p-4 border border-gray-300 dark:border-gray-700 
+                       rounded-lg shadow hover:shadow-lg cursor-pointer transition duration-300
+                       bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white"
           >
+            {/* ✅ Dark mode border, background, and text color added */}
             <span className="text-3xl sm:text-4xl mb-2 sm:mb-3">
               {dept.icon}
             </span>
