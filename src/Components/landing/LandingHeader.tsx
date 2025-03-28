@@ -33,7 +33,7 @@ const LandingHeader: React.FC = () => {
       {/* Main header */}
       <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center">
-          <div className="text-2xl font-bold text-medical-primary">IndiaMart</div>
+          <div className="text-2xl font-bold text-medical-primary">BiddingSite</div>
         </div>
         
         <div className="flex-1 max-w-3xl">
@@ -42,7 +42,7 @@ const LandingHeader: React.FC = () => {
               <Input 
                 type="text" 
                 placeholder="Enter product / service to search" 
-                className="pl-10 pr-20 py-2 rounded-md border-2 border-medical-accent focus:border-medical-accent"
+                className="pl-10 pr-20 py-2 rounded-md border-2 border-medical-accent focus:outline-none"
               />
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
             </div>

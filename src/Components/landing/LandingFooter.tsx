@@ -8,7 +8,7 @@ const LandingFooter: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">IndiaMart</h3>
+            <h3 className="text-lg font-semibold mb-4">BiddingSite</h3>
             <p className="text-gray-300 mb-4">India's largest online B2B marketplace, connecting buyers with suppliers.</p>
             <div className="flex space-x-3">
               <a href="#" className="text-gray-300 hover:text-white">
@@ -60,7 +60,7 @@ const LandingFooter: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-gray-300" />
-                <span className="text-gray-300">contact@indiamart.com</span>
+                <span className="text-gray-300">contact@biddingsite.com</span>
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ const LandingFooter: React.FC = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2023 IndiaMart. All rights reserved.
+              © 2023 BiddingSite. All rights reserved.
             </div>
             <div className="flex space-x-4 text-sm">
               <a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a>
